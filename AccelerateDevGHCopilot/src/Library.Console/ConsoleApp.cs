@@ -27,7 +27,7 @@ public class ConsoleApp
 
     public async Task Run()
     {
-        while (true)
+        while (_currentState != ConsoleState.Quit)
         {
             switch (_currentState)
             {
@@ -45,6 +45,7 @@ public class ConsoleApp
                     break;
             }
         }
+        Console.WriteLine("Thank you for using the library system. Goodbye!");
     }
 
     async Task<ConsoleState> PatronSearch()

@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": "Debug Library Console",
+            "program": "${workspaceFolder}/AccelerateDevGHCopilot/src/Library.Console/bin/Debug/net9.0/Library.Console.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/AccelerateDevGHCopilot/src/Library.Console",
+            "preLaunchTask": "build"
+        }
+    ]
+}
